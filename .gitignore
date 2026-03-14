@@ -1,0 +1,26 @@
+# Database files
+database/*.db
+database/*.db-wal
+database/*.db-shm
+
+# Uploads (keep directory structure)
+website/uploads/products/*
+website/uploads/projects/*
+website/uploads/testimonials/*
+!website/uploads/products/.gitkeep
+!website/uploads/projects/.gitkeep
+!website/uploads/testimonials/.gitkeep
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
