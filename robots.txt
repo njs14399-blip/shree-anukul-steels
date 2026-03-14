@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /website/
+Disallow: /api/
+Disallow: /database/
+Disallow: /includes/
+
+Sitemap: https://www.shreeanukulsteels.com/sitemap.php
